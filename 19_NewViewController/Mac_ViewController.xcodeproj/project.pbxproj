@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C36CCB591BEAEDE90047756C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C36CCB581BEAEDE90047756C /* AppDelegate.m */; };
+		C36CCB5C1BEAEDE90047756C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C36CCB5B1BEAEDE90047756C /* main.m */; };
+		C36CCB5E1BEAEDE90047756C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C36CCB5D1BEAEDE90047756C /* Assets.xcassets */; };
+		C36CCB611BEAEDE90047756C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C36CCB5F1BEAEDE90047756C /* MainMenu.xib */; };
+		C36CCB6C1BEAEDE90047756C /* Mac_ViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C36CCB6B1BEAEDE90047756C /* Mac_ViewControllerTests.m */; };
+		C36CCB781BEAEE0D0047756C /* MyWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = C36CCB771BEAEE0D0047756C /* MyWindowController.m */; settings = {ASSET_TAGS = (); }; };
+		C36CCB7A1BEAEE250047756C /* TestWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C36CCB791BEAEE250047756C /* TestWindow.xib */; settings = {ASSET_TAGS = (); }; };
+		C36CCB7D1BEAF1A60047756C /* CustomImageVIewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C36CCB7C1BEAF1A60047756C /* CustomImageVIewController.m */; settings = {ASSET_TAGS = (); }; };
+		C36CCB7F1BEAF1C30047756C /* CustomImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C36CCB7E1BEAF1C30047756C /* CustomImageView.xib */; settings = {ASSET_TAGS = (); }; };
+		C36CCB811BEAF3BB0047756C /* LakeDonPedro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C36CCB801BEAF3BB0047756C /* LakeDonPedro.jpg */; settings = {ASSET_TAGS = (); }; };
+		C36CCB891BEB265B0047756C /* CustomVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C36CCB881BEB265B0047756C /* CustomVideoViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C36CCB8B1BEB26770047756C /* CustomVideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C36CCB8A1BEB26770047756C /* CustomVideoView.xib */; settings = {ASSET_TAGS = (); }; };
+		C36CCB8D1BEB27310047756C /* adam.mov in Resources */ = {isa = PBXBuildFile; fileRef = C36CCB8C1BEB27310047756C /* adam.mov */; settings = {ASSET_TAGS = (); }; };
+		C36CCB901BEB4C580047756C /* CustomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C36CCB8F1BEB4C580047756C /* CustomTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C36CCB921BEB4C7A0047756C /* CustomTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C36CCB911BEB4C7A0047756C /* CustomTableView.xib */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C36CCB681BEAEDE90047756C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C36CCB4C1BEAEDE90047756C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C36CCB531BEAEDE90047756C;
+			remoteInfo = Mac_ViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C36CCB541BEAEDE90047756C /* Mac_ViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mac_ViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36CCB571BEAEDE90047756C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C36CCB581BEAEDE90047756C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C36CCB5B1BEAEDE90047756C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C36CCB5D1BEAEDE90047756C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C36CCB601BEAEDE90047756C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C36CCB621BEAEDE90047756C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C36CCB671BEAEDE90047756C /* Mac_ViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mac_ViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36CCB6B1BEAEDE90047756C /* Mac_ViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mac_ViewControllerTests.m; sourceTree = "<group>"; };
+		C36CCB6D1BEAEDE90047756C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C36CCB761BEAEE0D0047756C /* MyWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWindowController.h; sourceTree = "<group>"; };
+		C36CCB771BEAEE0D0047756C /* MyWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWindowController.m; sourceTree = "<group>"; };
+		C36CCB791BEAEE250047756C /* TestWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestWindow.xib; sourceTree = "<group>"; };
+		C36CCB7B1BEAF1A60047756C /* CustomImageVIewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomImageVIewController.h; sourceTree = "<group>"; };
+		C36CCB7C1BEAF1A60047756C /* CustomImageVIewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomImageVIewController.m; sourceTree = "<group>"; };
+		C36CCB7E1BEAF1C30047756C /* CustomImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomImageView.xib; sourceTree = "<group>"; };
+		C36CCB801BEAF3BB0047756C /* LakeDonPedro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LakeDonPedro.jpg; sourceTree = "<group>"; };
+		C36CCB871BEB265B0047756C /* CustomVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomVideoViewController.h; sourceTree = "<group>"; };
+		C36CCB881BEB265B0047756C /* CustomVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomVideoViewController.m; sourceTree = "<group>"; };
+		C36CCB8A1BEB26770047756C /* CustomVideoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomVideoView.xib; sourceTree = "<group>"; };
+		C36CCB8C1BEB27310047756C /* adam.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = adam.mov; sourceTree = "<group>"; };
+		C36CCB8E1BEB4C580047756C /* CustomTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewController.h; sourceTree = "<group>"; };
+		C36CCB8F1BEB4C580047756C /* CustomTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewController.m; sourceTree = "<group>"; };
+		C36CCB911BEB4C7A0047756C /* CustomTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C36CCB511BEAEDE90047756C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36CCB641BEAEDE90047756C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C36CCB4B1BEAEDE90047756C = {
+			isa = PBXGroup;
+			children = (
+				C36CCB561BEAEDE90047756C /* Mac_ViewController */,
+				C36CCB6A1BEAEDE90047756C /* Mac_ViewControllerTests */,
+				C36CCB551BEAEDE90047756C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C36CCB551BEAEDE90047756C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C36CCB541BEAEDE90047756C /* Mac_ViewController.app */,
+				C36CCB671BEAEDE90047756C /* Mac_ViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C36CCB561BEAEDE90047756C /* Mac_ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C36CCB8C1BEB27310047756C /* adam.mov */,
+				C36CCB801BEAF3BB0047756C /* LakeDonPedro.jpg */,
+				C36CCB571BEAEDE90047756C /* AppDelegate.h */,
+				C36CCB581BEAEDE90047756C /* AppDelegate.m */,
+				C36CCB761BEAEE0D0047756C /* MyWindowController.h */,
+				C36CCB771BEAEE0D0047756C /* MyWindowController.m */,
+				C36CCB7B1BEAF1A60047756C /* CustomImageVIewController.h */,
+				C36CCB7C1BEAF1A60047756C /* CustomImageVIewController.m */,
+				C36CCB871BEB265B0047756C /* CustomVideoViewController.h */,
+				C36CCB881BEB265B0047756C /* CustomVideoViewController.m */,
+				C36CCB8E1BEB4C580047756C /* CustomTableViewController.h */,
+				C36CCB8F1BEB4C580047756C /* CustomTableViewController.m */,
+				C36CCB5D1BEAEDE90047756C /* Assets.xcassets */,
+				C36CCB5F1BEAEDE90047756C /* MainMenu.xib */,
+				C36CCB791BEAEE250047756C /* TestWindow.xib */,
+				C36CCB7E1BEAF1C30047756C /* CustomImageView.xib */,
+				C36CCB8A1BEB26770047756C /* CustomVideoView.xib */,
+				C36CCB911BEB4C7A0047756C /* CustomTableView.xib */,
+				C36CCB621BEAEDE90047756C /* Info.plist */,
+				C36CCB5A1BEAEDE90047756C /* Supporting Files */,
+			);
+			path = Mac_ViewController;
+			sourceTree = "<group>";
+		};
+		C36CCB5A1BEAEDE90047756C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C36CCB5B1BEAEDE90047756C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C36CCB6A1BEAEDE90047756C /* Mac_ViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C36CCB6B1BEAEDE90047756C /* Mac_ViewControllerTests.m */,
+				C36CCB6D1BEAEDE90047756C /* Info.plist */,
+			);
+			path = Mac_ViewControllerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C36CCB531BEAEDE90047756C /* Mac_ViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36CCB701BEAEDE90047756C /* Build configuration list for PBXNativeTarget "Mac_ViewController" */;
+			buildPhases = (
+				C36CCB501BEAEDE90047756C /* Sources */,
+				C36CCB511BEAEDE90047756C /* Frameworks */,
+				C36CCB521BEAEDE90047756C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mac_ViewController;
+			productName = Mac_ViewController;
+			productReference = C36CCB541BEAEDE90047756C /* Mac_ViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C36CCB661BEAEDE90047756C /* Mac_ViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36CCB731BEAEDE90047756C /* Build configuration list for PBXNativeTarget "Mac_ViewControllerTests" */;
+			buildPhases = (
+				C36CCB631BEAEDE90047756C /* Sources */,
+				C36CCB641BEAEDE90047756C /* Frameworks */,
+				C36CCB651BEAEDE90047756C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C36CCB691BEAEDE90047756C /* PBXTargetDependency */,
+			);
+			name = Mac_ViewControllerTests;
+			productName = Mac_ViewControllerTests;
+			productReference = C36CCB671BEAEDE90047756C /* Mac_ViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C36CCB4C1BEAEDE90047756C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = 33e9;
+				TargetAttributes = {
+					C36CCB531BEAEDE90047756C = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					C36CCB661BEAEDE90047756C = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = C36CCB531BEAEDE90047756C;
+					};
+				};
+			};
+			buildConfigurationList = C36CCB4F1BEAEDE90047756C /* Build configuration list for PBXProject "Mac_ViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C36CCB4B1BEAEDE90047756C;
+			productRefGroup = C36CCB551BEAEDE90047756C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C36CCB531BEAEDE90047756C /* Mac_ViewController */,
+				C36CCB661BEAEDE90047756C /* Mac_ViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C36CCB521BEAEDE90047756C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36CCB5E1BEAEDE90047756C /* Assets.xcassets in Resources */,
+				C36CCB8D1BEB27310047756C /* adam.mov in Resources */,
+				C36CCB921BEB4C7A0047756C /* CustomTableView.xib in Resources */,
+				C36CCB8B1BEB26770047756C /* CustomVideoView.xib in Resources */,
+				C36CCB7F1BEAF1C30047756C /* CustomImageView.xib in Resources */,
+				C36CCB611BEAEDE90047756C /* MainMenu.xib in Resources */,
+				C36CCB811BEAF3BB0047756C /* LakeDonPedro.jpg in Resources */,
+				C36CCB7A1BEAEE250047756C /* TestWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36CCB651BEAEDE90047756C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C36CCB501BEAEDE90047756C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36CCB5C1BEAEDE90047756C /* main.m in Sources */,
+				C36CCB591BEAEDE90047756C /* AppDelegate.m in Sources */,
+				C36CCB781BEAEE0D0047756C /* MyWindowController.m in Sources */,
+				C36CCB891BEB265B0047756C /* CustomVideoViewController.m in Sources */,
+				C36CCB901BEB4C580047756C /* CustomTableViewController.m in Sources */,
+				C36CCB7D1BEAF1A60047756C /* CustomImageVIewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36CCB631BEAEDE90047756C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36CCB6C1BEAEDE90047756C /* Mac_ViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C36CCB691BEAEDE90047756C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C36CCB531BEAEDE90047756C /* Mac_ViewController */;
+			targetProxy = C36CCB681BEAEDE90047756C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C36CCB5F1BEAEDE90047756C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C36CCB601BEAEDE90047756C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C36CCB6E1BEAEDE90047756C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C36CCB6F1BEAEDE90047756C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C36CCB711BEAEDE90047756C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Mac_ViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.33e9.yunwu.Mac-ViewController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C36CCB721BEAEDE90047756C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Mac_ViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.33e9.yunwu.Mac-ViewController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C36CCB741BEAEDE90047756C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Mac_ViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.33e9.yunwu.Mac-ViewControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mac_ViewController.app/Contents/MacOS/Mac_ViewController";
+			};
+			name = Debug;
+		};
+		C36CCB751BEAEDE90047756C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Mac_ViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.33e9.yunwu.Mac-ViewControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mac_ViewController.app/Contents/MacOS/Mac_ViewController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C36CCB4F1BEAEDE90047756C /* Build configuration list for PBXProject "Mac_ViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36CCB6E1BEAEDE90047756C /* Debug */,
+				C36CCB6F1BEAEDE90047756C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C36CCB701BEAEDE90047756C /* Build configuration list for PBXNativeTarget "Mac_ViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36CCB711BEAEDE90047756C /* Debug */,
+				C36CCB721BEAEDE90047756C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C36CCB731BEAEDE90047756C /* Build configuration list for PBXNativeTarget "Mac_ViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36CCB741BEAEDE90047756C /* Debug */,
+				C36CCB751BEAEDE90047756C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C36CCB4C1BEAEDE90047756C /* Project object */;
+}

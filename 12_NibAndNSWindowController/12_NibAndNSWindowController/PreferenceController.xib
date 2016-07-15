@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="8191"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="PreferenceController">
+            <connections>
+                <outlet property="checkbox" destination="EXh-Tz-NNp" id="3vI-id-cqq"/>
+                <outlet property="colorWell" destination="7oC-EP-1kl" id="ti5-7V-Fdd"/>
+                <outlet property="window" destination="vkH-T7-bRx" id="YfH-oX-iX1"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Preferences" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" hidesOnDeactivate="YES" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" animationBehavior="default" id="vkH-T7-bRx" customClass="NSPanel">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES" utility="YES"/>
+            <rect key="contentRect" x="301" y="0.0" width="381" height="199"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1360" height="745"/>
+            <view key="contentView" id="gAZ-Ab-ATa">
+                <rect key="frame" x="0.0" y="0.0" width="381" height="199"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7oC-EP-1kl">
+                        <rect key="frame" x="36" y="148" width="44" height="23"/>
+                        <color key="color" red="0.05813049898" green="0.055541899059999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <connections>
+                            <action selector="changeBackgroundColor:" target="-2" id="KYC-sV-Jq7"/>
+                        </connections>
+                    </colorWell>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wg8-6c-X7Y">
+                        <rect key="frame" x="86" y="151" width="169" height="17"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Table background Color" id="mWL-ag-6pF">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EXh-Tz-NNp">
+                        <rect key="frame" x="66" y="108" width="131" height="28"/>
+                        <buttonCell key="cell" type="check" title="Automayically  " bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="Brp-DB-pce">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="changeNewEmptyDoc:" target="-2" id="Prc-Bx-FwV"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <point key="canvasLocation" x="638.5" y="306.5"/>
+        </window>
+    </objects>
+</document>

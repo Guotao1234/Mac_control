@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3877DDF1BE7307B00A92168 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3877DDE1BE7307B00A92168 /* AppDelegate.m */; };
+		C3877DE21BE7307B00A92168 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3877DE11BE7307B00A92168 /* main.m */; };
+		C3877DE41BE7307B00A92168 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3877DE31BE7307B00A92168 /* Assets.xcassets */; };
+		C3877DE71BE7307B00A92168 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3877DE51BE7307B00A92168 /* MainMenu.xib */; };
+		C3877DF21BE7307B00A92168 /* NSAlert_PanelsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3877DF11BE7307B00A92168 /* NSAlert_PanelsTests.m */; };
+		C3877DFF1BE730A500A92168 /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = C3877DFD1BE730A500A92168 /* MyDocument.m */; settings = {ASSET_TAGS = (); }; };
+		C3877E031BE7391A00A92168 /* MyData.m in Sources */ = {isa = PBXBuildFile; fileRef = C3877E021BE7391A00A92168 /* MyData.m */; settings = {ASSET_TAGS = (); }; };
+		C3877E051BE74B6600A92168 /* MyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3877E041BE74B6600A92168 /* MyDocument.xib */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3877DEE1BE7307B00A92168 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3877DD21BE7307B00A92168 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3877DD91BE7307B00A92168;
+			remoteInfo = NSAlert_Panels;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3877DDA1BE7307B00A92168 /* NSAlert_Panels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSAlert_Panels.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3877DDD1BE7307B00A92168 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C3877DDE1BE7307B00A92168 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C3877DE11BE7307B00A92168 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3877DE31BE7307B00A92168 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3877DE61BE7307B00A92168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C3877DE81BE7307B00A92168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3877DED1BE7307B00A92168 /* NSAlert_PanelsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSAlert_PanelsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3877DF11BE7307B00A92168 /* NSAlert_PanelsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSAlert_PanelsTests.m; sourceTree = "<group>"; };
+		C3877DF31BE7307B00A92168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3877DFC1BE730A500A92168 /* MyDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDocument.h; sourceTree = "<group>"; };
+		C3877DFD1BE730A500A92168 /* MyDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDocument.m; sourceTree = "<group>"; };
+		C3877E011BE7391A00A92168 /* MyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyData.h; sourceTree = "<group>"; };
+		C3877E021BE7391A00A92168 /* MyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyData.m; sourceTree = "<group>"; };
+		C3877E041BE74B6600A92168 /* MyDocument.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyDocument.xib; path = ../MyDocument.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3877DD71BE7307B00A92168 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3877DEA1BE7307B00A92168 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3877DD11BE7307B00A92168 = {
+			isa = PBXGroup;
+			children = (
+				C3877DDC1BE7307B00A92168 /* NSAlert_Panels */,
+				C3877DF01BE7307B00A92168 /* NSAlert_PanelsTests */,
+				C3877DDB1BE7307B00A92168 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3877DDB1BE7307B00A92168 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3877DDA1BE7307B00A92168 /* NSAlert_Panels.app */,
+				C3877DED1BE7307B00A92168 /* NSAlert_PanelsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3877DDC1BE7307B00A92168 /* NSAlert_Panels */ = {
+			isa = PBXGroup;
+			children = (
+				C3877DDD1BE7307B00A92168 /* AppDelegate.h */,
+				C3877DDE1BE7307B00A92168 /* AppDelegate.m */,
+				C3877DFC1BE730A500A92168 /* MyDocument.h */,
+				C3877DFD1BE730A500A92168 /* MyDocument.m */,
+				C3877E041BE74B6600A92168 /* MyDocument.xib */,
+				C3877E011BE7391A00A92168 /* MyData.h */,
+				C3877E021BE7391A00A92168 /* MyData.m */,
+				C3877DE31BE7307B00A92168 /* Assets.xcassets */,
+				C3877DE51BE7307B00A92168 /* MainMenu.xib */,
+				C3877DE81BE7307B00A92168 /* Info.plist */,
+				C3877DE01BE7307B00A92168 /* Supporting Files */,
+			);
+			path = NSAlert_Panels;
+			sourceTree = "<group>";
+		};
+		C3877DE01BE7307B00A92168 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3877DE11BE7307B00A92168 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3877DF01BE7307B00A92168 /* NSAlert_PanelsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3877DF11BE7307B00A92168 /* NSAlert_PanelsTests.m */,
+				C3877DF31BE7307B00A92168 /* Info.plist */,
+			);
+			path = NSAlert_PanelsTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3877DD91BE7307B00A92168 /* NSAlert_Panels */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3877DF61BE7307B00A92168 /* Build configuration list for PBXNativeTarget "NSAlert_Panels" */;
+			buildPhases = (
+				C3877DD61BE7307B00A92168 /* Sources */,
+				C3877DD71BE7307B00A92168 /* Frameworks */,
+				C3877DD81BE7307B00A92168 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSAlert_Panels;
+			productName = NSAlert_Panels;
+			productReference = C3877DDA1BE7307B00A92168 /* NSAlert_Panels.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3877DEC1BE7307B00A92168 /* NSAlert_PanelsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3877DF91BE7307B00A92168 /* Build configuration list for PBXNativeTarget "NSAlert_PanelsTests" */;
+			buildPhases = (
+				C3877DE91BE7307B00A92168 /* Sources */,
+				C3877DEA1BE7307B00A92168 /* Frameworks */,
+				C3877DEB1BE7307B00A92168 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3877DEF1BE7307B00A92168 /* PBXTargetDependency */,
+			);
+			name = NSAlert_PanelsTests;
+			productName = NSAlert_PanelsTests;
+			productReference = C3877DED1BE7307B00A92168 /* NSAlert_PanelsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3877DD21BE7307B00A92168 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = 33e9;
+				TargetAttributes = {
+					C3877DD91BE7307B00A92168 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					C3877DEC1BE7307B00A92168 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = C3877DD91BE7307B00A92168;
+					};
+				};
+			};
+			buildConfigurationList = C3877DD51BE7307B00A92168 /* Build configuration list for PBXProject "NSAlert_Panels" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3877DD11BE7307B00A92168;
+			productRefGroup = C3877DDB1BE7307B00A92168 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3877DD91BE7307B00A92168 /* NSAlert_Panels */,
+				C3877DEC1BE7307B00A92168 /* NSAlert_PanelsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3877DD81BE7307B00A92168 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3877E051BE74B6600A92168 /* MyDocument.xib in Resources */,
+				C3877DE41BE7307B00A92168 /* Assets.xcassets in Resources */,
+				C3877DE71BE7307B00A92168 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3877DEB1BE7307B00A92168 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3877DD61BE7307B00A92168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3877DE21BE7307B00A92168 /* main.m in Sources */,
+				C3877DDF1BE7307B00A92168 /* AppDelegate.m in Sources */,
+				C3877DFF1BE730A500A92168 /* MyDocument.m in Sources */,
+				C3877E031BE7391A00A92168 /* MyData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3877DE91BE7307B00A92168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3877DF21BE7307B00A92168 /* NSAlert_PanelsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3877DEF1BE7307B00A92168 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3877DD91BE7307B00A92168 /* NSAlert_Panels */;
+			targetProxy = C3877DEE1BE7307B00A92168 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3877DE51BE7307B00A92168 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3877DE61BE7307B00A92168 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3877DF41BE7307B00A92168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C3877DF51BE7307B00A92168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C3877DF71BE7307B00A92168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSAlert_Panels/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.33e9.yunwu.NSAlert-Panels";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C3877DF81BE7307B00A92168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSAlert_Panels/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.33e9.yunwu.NSAlert-Panels";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C3877DFA1BE7307B00A92168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSAlert_PanelsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.33e9.yunwu.NSAlert-PanelsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSAlert_Panels.app/Contents/MacOS/NSAlert_Panels";
+			};
+			name = Debug;
+		};
+		C3877DFB1BE7307B00A92168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSAlert_PanelsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.33e9.yunwu.NSAlert-PanelsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSAlert_Panels.app/Contents/MacOS/NSAlert_Panels";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3877DD51BE7307B00A92168 /* Build configuration list for PBXProject "NSAlert_Panels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3877DF41BE7307B00A92168 /* Debug */,
+				C3877DF51BE7307B00A92168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3877DF61BE7307B00A92168 /* Build configuration list for PBXNativeTarget "NSAlert_Panels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3877DF71BE7307B00A92168 /* Debug */,
+				C3877DF81BE7307B00A92168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C3877DF91BE7307B00A92168 /* Build configuration list for PBXNativeTarget "NSAlert_PanelsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3877DFA1BE7307B00A92168 /* Debug */,
+				C3877DFB1BE7307B00A92168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3877DD21BE7307B00A92168 /* Project object */;
+}

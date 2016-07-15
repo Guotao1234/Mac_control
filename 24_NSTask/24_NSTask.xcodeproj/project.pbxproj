@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C39310131BF9873300CED140 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C39310121BF9873300CED140 /* AppDelegate.m */; };
+		C39310161BF9873300CED140 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C39310151BF9873300CED140 /* main.m */; };
+		C39310181BF9873300CED140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C39310171BF9873300CED140 /* Assets.xcassets */; };
+		C393101B1BF9873300CED140 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C39310191BF9873300CED140 /* MainMenu.xib */; };
+		C39310261BF9873300CED140 /* _4_NSTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C39310251BF9873300CED140 /* _4_NSTaskTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C39310221BF9873300CED140 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C39310061BF9873200CED140 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C393100D1BF9873300CED140;
+			remoteInfo = 24_NSTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C393100E1BF9873300CED140 /* 24_NSTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 24_NSTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39310111BF9873300CED140 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C39310121BF9873300CED140 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C39310151BF9873300CED140 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C39310171BF9873300CED140 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C393101A1BF9873300CED140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C393101C1BF9873300CED140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C39310211BF9873300CED140 /* 24_NSTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 24_NSTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39310251BF9873300CED140 /* _4_NSTaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _4_NSTaskTests.m; sourceTree = "<group>"; };
+		C39310271BF9873300CED140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C393100B1BF9873300CED140 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C393101E1BF9873300CED140 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C39310051BF9873200CED140 = {
+			isa = PBXGroup;
+			children = (
+				C39310101BF9873300CED140 /* 24_NSTask */,
+				C39310241BF9873300CED140 /* 24_NSTaskTests */,
+				C393100F1BF9873300CED140 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C393100F1BF9873300CED140 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C393100E1BF9873300CED140 /* 24_NSTask.app */,
+				C39310211BF9873300CED140 /* 24_NSTaskTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C39310101BF9873300CED140 /* 24_NSTask */ = {
+			isa = PBXGroup;
+			children = (
+				C39310111BF9873300CED140 /* AppDelegate.h */,
+				C39310121BF9873300CED140 /* AppDelegate.m */,
+				C39310171BF9873300CED140 /* Assets.xcassets */,
+				C39310191BF9873300CED140 /* MainMenu.xib */,
+				C393101C1BF9873300CED140 /* Info.plist */,
+				C39310141BF9873300CED140 /* Supporting Files */,
+			);
+			path = 24_NSTask;
+			sourceTree = "<group>";
+		};
+		C39310141BF9873300CED140 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C39310151BF9873300CED140 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C39310241BF9873300CED140 /* 24_NSTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				C39310251BF9873300CED140 /* _4_NSTaskTests.m */,
+				C39310271BF9873300CED140 /* Info.plist */,
+			);
+			path = 24_NSTaskTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C393100D1BF9873300CED140 /* 24_NSTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C393102A1BF9873300CED140 /* Build configuration list for PBXNativeTarget "24_NSTask" */;
+			buildPhases = (
+				C393100A1BF9873300CED140 /* Sources */,
+				C393100B1BF9873300CED140 /* Frameworks */,
+				C393100C1BF9873300CED140 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 24_NSTask;
+			productName = 24_NSTask;
+			productReference = C393100E1BF9873300CED140 /* 24_NSTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C39310201BF9873300CED140 /* 24_NSTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C393102D1BF9873300CED140 /* Build configuration list for PBXNativeTarget "24_NSTaskTests" */;
+			buildPhases = (
+				C393101D1BF9873300CED140 /* Sources */,
+				C393101E1BF9873300CED140 /* Frameworks */,
+				C393101F1BF9873300CED140 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C39310231BF9873300CED140 /* PBXTargetDependency */,
+			);
+			name = 24_NSTaskTests;
+			productName = 24_NSTaskTests;
+			productReference = C39310211BF9873300CED140 /* 24_NSTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C39310061BF9873200CED140 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = 33e9;
+				TargetAttributes = {
+					C393100D1BF9873300CED140 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					C39310201BF9873300CED140 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = C393100D1BF9873300CED140;
+					};
+				};
+			};
+			buildConfigurationList = C39310091BF9873200CED140 /* Build configuration list for PBXProject "24_NSTask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C39310051BF9873200CED140;
+			productRefGroup = C393100F1BF9873300CED140 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C393100D1BF9873300CED140 /* 24_NSTask */,
+				C39310201BF9873300CED140 /* 24_NSTaskTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C393100C1BF9873300CED140 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39310181BF9873300CED140 /* Assets.xcassets in Resources */,
+				C393101B1BF9873300CED140 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C393101F1BF9873300CED140 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C393100A1BF9873300CED140 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39310161BF9873300CED140 /* main.m in Sources */,
+				C39310131BF9873300CED140 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C393101D1BF9873300CED140 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39310261BF9873300CED140 /* _4_NSTaskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C39310231BF9873300CED140 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C393100D1BF9873300CED140 /* 24_NSTask */;
+			targetProxy = C39310221BF9873300CED140 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C39310191BF9873300CED140 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C393101A1BF9873300CED140 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C39310281BF9873300CED140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C39310291BF9873300CED140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C393102B1BF9873300CED140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = 24_NSTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.33e9.yunwu.-4-NSTask";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C393102C1BF9873300CED140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = 24_NSTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.33e9.yunwu.-4-NSTask";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C393102E1BF9873300CED140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = 24_NSTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.33e9.yunwu.-4-NSTaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/24_NSTask.app/Contents/MacOS/24_NSTask";
+			};
+			name = Debug;
+		};
+		C393102F1BF9873300CED140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = 24_NSTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.33e9.yunwu.-4-NSTaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/24_NSTask.app/Contents/MacOS/24_NSTask";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C39310091BF9873200CED140 /* Build configuration list for PBXProject "24_NSTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C39310281BF9873300CED140 /* Debug */,
+				C39310291BF9873300CED140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C393102A1BF9873300CED140 /* Build configuration list for PBXNativeTarget "24_NSTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C393102B1BF9873300CED140 /* Debug */,
+				C393102C1BF9873300CED140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C393102D1BF9873300CED140 /* Build configuration list for PBXNativeTarget "24_NSTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C393102E1BF9873300CED140 /* Debug */,
+				C393102F1BF9873300CED140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C39310061BF9873200CED140 /* Project object */;
+}

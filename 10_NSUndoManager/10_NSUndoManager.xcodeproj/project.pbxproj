@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C39D24A01BE1BB33007C7DA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C39D249F1BE1BB33007C7DA3 /* AppDelegate.m */; };
+		C39D24A31BE1BB33007C7DA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C39D24A21BE1BB33007C7DA3 /* main.m */; };
+		C39D24A61BE1BB33007C7DA3 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = C39D24A51BE1BB33007C7DA3 /* Document.m */; };
+		C39D24A91BE1BB33007C7DA3 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = C39D24A71BE1BB33007C7DA3 /* Document.xib */; };
+		C39D24AB1BE1BB33007C7DA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C39D24AA1BE1BB33007C7DA3 /* Assets.xcassets */; };
+		C39D24AE1BE1BB33007C7DA3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C39D24AC1BE1BB33007C7DA3 /* MainMenu.xib */; };
+		C39D24B91BE1BB34007C7DA3 /* _0_NSUndoManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C39D24B81BE1BB34007C7DA3 /* _0_NSUndoManagerTests.m */; };
+		C39D24C51BE1BBA4007C7DA3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C39D24C41BE1BBA4007C7DA3 /* Person.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C39D24B51BE1BB33007C7DA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C39D24931BE1BB33007C7DA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C39D249A1BE1BB33007C7DA3;
+			remoteInfo = 10_NSUndoManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C39D249B1BE1BB33007C7DA3 /* 10_NSUndoManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 10_NSUndoManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39D249E1BE1BB33007C7DA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C39D249F1BE1BB33007C7DA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C39D24A21BE1BB33007C7DA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C39D24A41BE1BB33007C7DA3 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		C39D24A51BE1BB33007C7DA3 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		C39D24A81BE1BB33007C7DA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
+		C39D24AA1BE1BB33007C7DA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C39D24AD1BE1BB33007C7DA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C39D24AF1BE1BB33007C7DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C39D24B41BE1BB33007C7DA3 /* 10_NSUndoManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 10_NSUndoManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39D24B81BE1BB34007C7DA3 /* _0_NSUndoManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0_NSUndoManagerTests.m; sourceTree = "<group>"; };
+		C39D24BA1BE1BB34007C7DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C39D24C31BE1BBA4007C7DA3 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		C39D24C41BE1BBA4007C7DA3 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C39D24981BE1BB33007C7DA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C39D24B11BE1BB33007C7DA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C39D24921BE1BB33007C7DA3 = {
+			isa = PBXGroup;
+			children = (
+				C39D249D1BE1BB33007C7DA3 /* 10_NSUndoManager */,
+				C39D24B71BE1BB33007C7DA3 /* 10_NSUndoManagerTests */,
+				C39D249C1BE1BB33007C7DA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C39D249C1BE1BB33007C7DA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C39D249B1BE1BB33007C7DA3 /* 10_NSUndoManager.app */,
+				C39D24B41BE1BB33007C7DA3 /* 10_NSUndoManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C39D249D1BE1BB33007C7DA3 /* 10_NSUndoManager */ = {
+			isa = PBXGroup;
+			children = (
+				C39D249E1BE1BB33007C7DA3 /* AppDelegate.h */,
+				C39D249F1BE1BB33007C7DA3 /* AppDelegate.m */,
+				C39D24A41BE1BB33007C7DA3 /* Document.h */,
+				C39D24A51BE1BB33007C7DA3 /* Document.m */,
+				C39D24A71BE1BB33007C7DA3 /* Document.xib */,
+				C39D24C31BE1BBA4007C7DA3 /* Person.h */,
+				C39D24C41BE1BBA4007C7DA3 /* Person.m */,
+				C39D24AA1BE1BB33007C7DA3 /* Assets.xcassets */,
+				C39D24AC1BE1BB33007C7DA3 /* MainMenu.xib */,
+				C39D24AF1BE1BB33007C7DA3 /* Info.plist */,
+				C39D24A11BE1BB33007C7DA3 /* Supporting Files */,
+			);
+			path = 10_NSUndoManager;
+			sourceTree = "<group>";
+		};
+		C39D24A11BE1BB33007C7DA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C39D24A21BE1BB33007C7DA3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C39D24B71BE1BB33007C7DA3 /* 10_NSUndoManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C39D24B81BE1BB34007C7DA3 /* _0_NSUndoManagerTests.m */,
+				C39D24BA1BE1BB34007C7DA3 /* Info.plist */,
+			);
+			path = 10_NSUndoManagerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C39D249A1BE1BB33007C7DA3 /* 10_NSUndoManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C39D24BD1BE1BB34007C7DA3 /* Build configuration list for PBXNativeTarget "10_NSUndoManager" */;
+			buildPhases = (
+				C39D24971BE1BB33007C7DA3 /* Sources */,
+				C39D24981BE1BB33007C7DA3 /* Frameworks */,
+				C39D24991BE1BB33007C7DA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 10_NSUndoManager;
+			productName = 10_NSUndoManager;
+			productReference = C39D249B1BE1BB33007C7DA3 /* 10_NSUndoManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C39D24B31BE1BB33007C7DA3 /* 10_NSUndoManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C39D24C01BE1BB34007C7DA3 /* Build configuration list for PBXNativeTarget "10_NSUndoManagerTests" */;
+			buildPhases = (
+				C39D24B01BE1BB33007C7DA3 /* Sources */,
+				C39D24B11BE1BB33007C7DA3 /* Frameworks */,
+				C39D24B21BE1BB33007C7DA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C39D24B61BE1BB33007C7DA3 /* PBXTargetDependency */,
+			);
+			name = 10_NSUndoManagerTests;
+			productName = 10_NSUndoManagerTests;
+			productReference = C39D24B41BE1BB33007C7DA3 /* 10_NSUndoManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C39D24931BE1BB33007C7DA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = 33e9;
+				TargetAttributes = {
+					C39D249A1BE1BB33007C7DA3 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					C39D24B31BE1BB33007C7DA3 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = C39D249A1BE1BB33007C7DA3;
+					};
+				};
+			};
+			buildConfigurationList = C39D24961BE1BB33007C7DA3 /* Build configuration list for PBXProject "10_NSUndoManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C39D24921BE1BB33007C7DA3;
+			productRefGroup = C39D249C1BE1BB33007C7DA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C39D249A1BE1BB33007C7DA3 /* 10_NSUndoManager */,
+				C39D24B31BE1BB33007C7DA3 /* 10_NSUndoManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C39D24991BE1BB33007C7DA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39D24AB1BE1BB33007C7DA3 /* Assets.xcassets in Resources */,
+				C39D24A91BE1BB33007C7DA3 /* Document.xib in Resources */,
+				C39D24AE1BE1BB33007C7DA3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C39D24B21BE1BB33007C7DA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C39D24971BE1BB33007C7DA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39D24A61BE1BB33007C7DA3 /* Document.m in Sources */,
+				C39D24A31BE1BB33007C7DA3 /* main.m in Sources */,
+				C39D24C51BE1BBA4007C7DA3 /* Person.m in Sources */,
+				C39D24A01BE1BB33007C7DA3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C39D24B01BE1BB33007C7DA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39D24B91BE1BB34007C7DA3 /* _0_NSUndoManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C39D24B61BE1BB33007C7DA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C39D249A1BE1BB33007C7DA3 /* 10_NSUndoManager */;
+			targetProxy = C39D24B51BE1BB33007C7DA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C39D24A71BE1BB33007C7DA3 /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C39D24A81BE1BB33007C7DA3 /* Base */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		C39D24AC1BE1BB33007C7DA3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C39D24AD1BE1BB33007C7DA3 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C39D24BB1BE1BB34007C7DA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C39D24BC1BE1BB34007C7DA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C39D24BE1BE1BB34007C7DA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = 10_NSUndoManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.33e9.yunwu.-0-NSUndoManager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C39D24BF1BE1BB34007C7DA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = 10_NSUndoManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.33e9.yunwu.-0-NSUndoManager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C39D24C11BE1BB34007C7DA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = 10_NSUndoManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.33e9.yunwu.-0-NSUndoManagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/10_NSUndoManager.app/Contents/MacOS/10_NSUndoManager";
+			};
+			name = Debug;
+		};
+		C39D24C21BE1BB34007C7DA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = 10_NSUndoManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.33e9.yunwu.-0-NSUndoManagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/10_NSUndoManager.app/Contents/MacOS/10_NSUndoManager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C39D24961BE1BB33007C7DA3 /* Build configuration list for PBXProject "10_NSUndoManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C39D24BB1BE1BB34007C7DA3 /* Debug */,
+				C39D24BC1BE1BB34007C7DA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C39D24BD1BE1BB34007C7DA3 /* Build configuration list for PBXNativeTarget "10_NSUndoManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C39D24BE1BE1BB34007C7DA3 /* Debug */,
+				C39D24BF1BE1BB34007C7DA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C39D24C01BE1BB34007C7DA3 /* Build configuration list for PBXNativeTarget "10_NSUndoManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C39D24C11BE1BB34007C7DA3 /* Debug */,
+				C39D24C21BE1BB34007C7DA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C39D24931BE1BB33007C7DA3 /* Project object */;
+}

@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C39012E91BE30751004131BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C39012E81BE30751004131BA /* AppDelegate.m */; };
+		C39012EC1BE30751004131BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C39012EB1BE30751004131BA /* main.m */; };
+		C39012EE1BE30751004131BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C39012ED1BE30751004131BA /* Assets.xcassets */; };
+		C39012F11BE30751004131BA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C39012EF1BE30751004131BA /* MainMenu.xib */; };
+		C39012FC1BE30751004131BA /* _2_NibAndNSWindowControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C39012FB1BE30751004131BA /* _2_NibAndNSWindowControllerTests.m */; };
+		C390130D1BE308A5004131BA /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = C390130C1BE308A5004131BA /* AppController.m */; settings = {ASSET_TAGS = (); }; };
+		C39013111BE308E5004131BA /* PreferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = C390130F1BE308E5004131BA /* PreferenceController.m */; settings = {ASSET_TAGS = (); }; };
+		C39013121BE308E5004131BA /* PreferenceController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C39013101BE308E5004131BA /* PreferenceController.xib */; settings = {ASSET_TAGS = (); }; };
+		C39013161BE33EA2004131BA /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = C39013141BE33EA2004131BA /* MyDocument.m */; settings = {ASSET_TAGS = (); }; };
+		C39013171BE33EA2004131BA /* MyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = C39013151BE33EA2004131BA /* MyDocument.xib */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C39012F81BE30751004131BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C39012DC1BE30751004131BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C39012E31BE30751004131BA;
+			remoteInfo = 12_NibAndNSWindowController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C39012E41BE30751004131BA /* 12_NibAndNSWindowController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 12_NibAndNSWindowController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39012E71BE30751004131BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C39012E81BE30751004131BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C39012EB1BE30751004131BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C39012ED1BE30751004131BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C39012F01BE30751004131BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C39012F21BE30751004131BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C39012F71BE30751004131BA /* 12_NibAndNSWindowControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 12_NibAndNSWindowControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39012FB1BE30751004131BA /* _2_NibAndNSWindowControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _2_NibAndNSWindowControllerTests.m; sourceTree = "<group>"; };
+		C39012FD1BE30751004131BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C390130B1BE308A5004131BA /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		C390130C1BE308A5004131BA /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		C390130E1BE308E5004131BA /* PreferenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceController.h; sourceTree = "<group>"; };
+		C390130F1BE308E5004131BA /* PreferenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenceController.m; sourceTree = "<group>"; };
+		C39013101BE308E5004131BA /* PreferenceController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferenceController.xib; sourceTree = "<group>"; };
+		C39013131BE33EA2004131BA /* MyDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDocument.h; sourceTree = "<group>"; };
+		C39013141BE33EA2004131BA /* MyDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDocument.m; sourceTree = "<group>"; };
+		C39013151BE33EA2004131BA /* MyDocument.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyDocument.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C39012E11BE30751004131BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C39012F41BE30751004131BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C39012DB1BE30751004131BA = {
+			isa = PBXGroup;
+			children = (
+				C39012E61BE30751004131BA /* 12_NibAndNSWindowController */,
+				C39012FA1BE30751004131BA /* 12_NibAndNSWindowControllerTests */,
+				C39012E51BE30751004131BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C39012E51BE30751004131BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C39012E41BE30751004131BA /* 12_NibAndNSWindowController.app */,
+				C39012F71BE30751004131BA /* 12_NibAndNSWindowControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C39012E61BE30751004131BA /* 12_NibAndNSWindowController */ = {
+			isa = PBXGroup;
+			children = (
+				C39012E71BE30751004131BA /* AppDelegate.h */,
+				C39012E81BE30751004131BA /* AppDelegate.m */,
+				C390130B1BE308A5004131BA /* AppController.h */,
+				C390130C1BE308A5004131BA /* AppController.m */,
+				C390130E1BE308E5004131BA /* PreferenceController.h */,
+				C390130F1BE308E5004131BA /* PreferenceController.m */,
+				C39013131BE33EA2004131BA /* MyDocument.h */,
+				C39013141BE33EA2004131BA /* MyDocument.m */,
+				C39013151BE33EA2004131BA /* MyDocument.xib */,
+				C39013101BE308E5004131BA /* PreferenceController.xib */,
+				C39012ED1BE30751004131BA /* Assets.xcassets */,
+				C39012EF1BE30751004131BA /* MainMenu.xib */,
+				C39012F21BE30751004131BA /* Info.plist */,
+				C39012EA1BE30751004131BA /* Supporting Files */,
+			);
+			path = 12_NibAndNSWindowController;
+			sourceTree = "<group>";
+		};
+		C39012EA1BE30751004131BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C39012EB1BE30751004131BA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C39012FA1BE30751004131BA /* 12_NibAndNSWindowControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C39012FB1BE30751004131BA /* _2_NibAndNSWindowControllerTests.m */,
+				C39012FD1BE30751004131BA /* Info.plist */,
+			);
+			path = 12_NibAndNSWindowControllerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C39012E31BE30751004131BA /* 12_NibAndNSWindowController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C39013001BE30751004131BA /* Build configuration list for PBXNativeTarget "12_NibAndNSWindowController" */;
+			buildPhases = (
+				C39012E01BE30751004131BA /* Sources */,
+				C39012E11BE30751004131BA /* Frameworks */,
+				C39012E21BE30751004131BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 12_NibAndNSWindowController;
+			productName = 12_NibAndNSWindowController;
+			productReference = C39012E41BE30751004131BA /* 12_NibAndNSWindowController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C39012F61BE30751004131BA /* 12_NibAndNSWindowControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C39013031BE30751004131BA /* Build configuration list for PBXNativeTarget "12_NibAndNSWindowControllerTests" */;
+			buildPhases = (
+				C39012F31BE30751004131BA /* Sources */,
+				C39012F41BE30751004131BA /* Frameworks */,
+				C39012F51BE30751004131BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C39012F91BE30751004131BA /* PBXTargetDependency */,
+			);
+			name = 12_NibAndNSWindowControllerTests;
+			productName = 12_NibAndNSWindowControllerTests;
+			productReference = C39012F71BE30751004131BA /* 12_NibAndNSWindowControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C39012DC1BE30751004131BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = 33e9;
+				TargetAttributes = {
+					C39012E31BE30751004131BA = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					C39012F61BE30751004131BA = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = C39012E31BE30751004131BA;
+					};
+				};
+			};
+			buildConfigurationList = C39012DF1BE30751004131BA /* Build configuration list for PBXProject "12_NibAndNSWindowController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C39012DB1BE30751004131BA;
+			productRefGroup = C39012E51BE30751004131BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C39012E31BE30751004131BA /* 12_NibAndNSWindowController */,
+				C39012F61BE30751004131BA /* 12_NibAndNSWindowControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C39012E21BE30751004131BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39013171BE33EA2004131BA /* MyDocument.xib in Resources */,
+				C39013121BE308E5004131BA /* PreferenceController.xib in Resources */,
+				C39012EE1BE30751004131BA /* Assets.xcassets in Resources */,
+				C39012F11BE30751004131BA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C39012F51BE30751004131BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C39012E01BE30751004131BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39013111BE308E5004131BA /* PreferenceController.m in Sources */,
+				C39012EC1BE30751004131BA /* main.m in Sources */,
+				C39012E91BE30751004131BA /* AppDelegate.m in Sources */,
+				C390130D1BE308A5004131BA /* AppController.m in Sources */,
+				C39013161BE33EA2004131BA /* MyDocument.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C39012F31BE30751004131BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39012FC1BE30751004131BA /* _2_NibAndNSWindowControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C39012F91BE30751004131BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C39012E31BE30751004131BA /* 12_NibAndNSWindowController */;
+			targetProxy = C39012F81BE30751004131BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C39012EF1BE30751004131BA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C39012F01BE30751004131BA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C39012FE1BE30751004131BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C39012FF1BE30751004131BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C39013011BE30751004131BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = 12_NibAndNSWindowController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.33e9.yunwu.-2-NibAndNSWindowController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C39013021BE30751004131BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = 12_NibAndNSWindowController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.33e9.yunwu.-2-NibAndNSWindowController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C39013041BE30751004131BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = 12_NibAndNSWindowControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.33e9.yunwu.-2-NibAndNSWindowControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/12_NibAndNSWindowController.app/Contents/MacOS/12_NibAndNSWindowController";
+			};
+			name = Debug;
+		};
+		C39013051BE30751004131BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = 12_NibAndNSWindowControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.33e9.yunwu.-2-NibAndNSWindowControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/12_NibAndNSWindowController.app/Contents/MacOS/12_NibAndNSWindowController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C39012DF1BE30751004131BA /* Build configuration list for PBXProject "12_NibAndNSWindowController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C39012FE1BE30751004131BA /* Debug */,
+				C39012FF1BE30751004131BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C39013001BE30751004131BA /* Build configuration list for PBXNativeTarget "12_NibAndNSWindowController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C39013011BE30751004131BA /* Debug */,
+				C39013021BE30751004131BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C39013031BE30751004131BA /* Build configuration list for PBXNativeTarget "12_NibAndNSWindowControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C39013041BE30751004131BA /* Debug */,
+				C39013051BE30751004131BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C39012DC1BE30751004131BA /* Project object */;
+}
