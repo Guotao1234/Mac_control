@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <item country="USA">
+        <title>Empire Burlesque</title>
+        <artist>Bob Dylan</artist>
+        <price>10.90</price>
+    </item>
+    <item country="UK">
+        <title>Hide your heart</title>
+        <artist>Bonnie Tyler</artist>
+        <price>9.90</price>
+    </item>
+    <item country="USA">
+        <title>Greatest Hits</title>
+        <artist>Dolly Parton</artist>
+        <price>9.90</price>
+    </item>
+</root>
